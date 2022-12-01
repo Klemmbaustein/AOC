@@ -1,0 +1,7 @@
+#binary files
+Day1/Day1
+*.o
+#shell scripts
+*.sh
+#input files
+*.in
