@@ -1,0 +1,15 @@
+﻿#binary files
+Day1/Day1
+*.o
+*.exe
+#shell scripts
+*.sh
+#input files
+*.in
+#vs project files
+*.sln
+*.filters
+*.vcxproj
+*.user
+/.vs
+/x64
