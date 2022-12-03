@@ -1,7 +1,9 @@
 #binary files
-Day1/Day1
 *.o
 *.exe
+#the linux executables
+Day1/Day1
+Day3/Day3
 #shell scripts
 *.sh
 #input files
@@ -13,3 +15,5 @@ Day1/Day1
 *.user
 /.vs
 /x64
+#vscode project files
+/.vscode
