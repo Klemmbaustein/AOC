@@ -4,6 +4,7 @@
 #the linux executables
 Day1/Day1
 Day3/Day3
+Day4/Day4
 #shell scripts
 *.sh
 #input files
