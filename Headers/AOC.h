@@ -33,9 +33,12 @@ int GetNextInt(std::ifstream& Stream)
 	return std::stoi(Line);
 }
 
-std::string GetNextLine(std::ifstream& Stream)
+std::string GetNextLine(std::ifstream& Stream, unsigned int MaxLineSize = 64)
 {
-	char Line[64];
-	Stream.getline(Line, 64);
-	return Line;
+	char* Line = new char[MaxLineSize + 1];
+	Stream.getline(Line, MaxLineSize);
+	Line[MaxLineSize] = '\0';
+	std::string LineString = Line;
+	delete Line;
+	return LineString;
 }
