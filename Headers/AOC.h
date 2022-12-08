@@ -39,6 +39,6 @@ std::string GetNextLine(std::ifstream& Stream, unsigned int MaxLineSize = 64)
 	Stream.getline(Line, MaxLineSize);
 	Line[MaxLineSize] = '\0';
 	std::string LineString = Line;
-	delete Line;
+	delete[] Line;
 	return LineString;
 }
